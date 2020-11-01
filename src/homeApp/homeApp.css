@@ -1,0 +1,45 @@
+h1 {
+    text-align: left;
+    font-size: 2.7em;
+}
+.hidden {
+    display: none!important;
+}
+
+.find-block {
+    display: flex;
+    flex-direction: row;
+}
+.count-result {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+}
+
+.arrived {
+    background-color: #ADFF2F;
+}
+.button-arrive {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-arrive button{
+    font-size: 0.9em;
+    padding: 10px 30px;
+    background-color: #EDFF21;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons-container button{
+    margin: 5px 0;
+    height: 30px;
+    width: 300px;
+    background-color: #EDFF21;
+}
